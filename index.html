@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The DOM</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="page-banner">
+				<h1 class="title">Bookorama</h1>
+				<p>Books for Ninjas</p>
+				<form action="" id="search-books">
+					<input type="text" placeholder="Search books...">
+				</form>
+			</div>
+		</header>
+		<div id="book-list">
+			<h2 class="title">Books to Read</h2>
+			<ul>
+				<li>
+					<span class="name">Name of the Wind</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="name">The Wise Man's Fear</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="name">Kafka on the Shore</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="name">The Master and the Margherita</span>
+					<span class="delete">delete</span>
+				</li>
+			</ul>
+		</div>
+		<form action="" id="add-book">
+			<input type="checkbox" id="hide">
+			<label for="hide">Hide all books</label>
+			<input type="text" placeholder="Add a Book...">
+			<button>Add</button>
+		</form>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
